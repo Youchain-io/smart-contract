@@ -1,3 +1,3 @@
 
-brew tap ethereum/ethereum
-brew install solidity
+`brew tap ethereum/ethereum`
+`brew install solidity`
