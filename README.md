@@ -70,5 +70,6 @@ AMOUNT
 #### Crowdsale
 
 https://github.com/ethereum/ethereum-org/blob/master/views/content/crowdsale.md
+https://ethereum.gitbooks.io/frontier-guide/content/contract_crowdfunder.html
 
 
