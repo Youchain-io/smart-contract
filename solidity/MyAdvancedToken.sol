@@ -196,7 +196,7 @@ contract MyAdvancedToken is owned, TokenERC20 {
     /*
      This generates a public event on the blockchain that will notify clients
     */
-    event FrozenFuns(address target, bool frozen);
+    event FrozenFunds(address target, bool frozen);
 
     /*
         Initializes contract with initial supply tokens to the creator of the contract
@@ -244,7 +244,7 @@ contract MyAdvancedToken is owned, TokenERC20 {
     /// @param freeze either to freeze it or not
     function freezeAccount(address target, bool freeze) onlyOwner public {
         frozenAccount[target] = freeze;
-        emit FrozenFuns(target, freeze);
+        emit FrozenFunds(target, freeze);
     }
 
     /// @notice Allow users to buy tokens for 'newBuyPrice' eth and sell tokens for 'newSellPrice' eth
